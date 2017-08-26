@@ -1,0 +1,306 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.hideBitch {
+    visibility: hidden;
+}
+
+body {
+  margin:0px;
+  padding-top: 340px;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  color:#333;
+}
+
+header {
+  height:450px;
+  width:100%;
+  background-image: url("imgs/4.jpg");
+  background-size: cover;
+  background-position:center;
+  position: fixed;
+  top:0;
+  color:#fff;
+
+}
+
+section {
+  padding-left: 15px;
+  position:relative;
+}
+
+#section1 {
+  background-color:#fff;
+  padding-top: 250px;
+  padding-bottom: 125px;
+
+}
+
+section h1 {
+  font-size: 48px;
+}
+
+section h3 {
+  color:#777;
+}
+
+#welcome {
+  border-left:3px solid red;
+  padding-left:30px ;
+  margin-bottom: 30px;
+}
+
+#heading_lejligheder {
+  border-left: 3px solid red;
+  padding-left:30px;
+}
+
+
+#logo {
+    position: relative;
+    width:340px;
+    top:140px;
+    margin:0px auto;
+    padding:20px;
+    border:1px solid #777;
+    background-color: rgba(50, 50, 50, 0.95);
+    text-align: center;
+    -moz-box-shadow:    3px 3px 6px 1px #222;
+    -webkit-box-shadow: 3px 3px 6px 1px #222;
+    box-shadow:         3px 3px 6px 1px #222;
+}
+
+
+
+#tagline {
+  color:orange;
+  letter-spacing: 2px;
+}
+
+.nav-scrolled {
+  position:fixed;
+  width:100%;
+  top:0;
+}
+
+nav {
+  margin-bottom: -100px;
+  background-color: #333;
+  position: relative;
+  height:100px;
+  width:100%;
+  z-index: 150;
+
+}
+
+nav ul {
+  position:relative;
+  max-width:630px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15%;
+    position:relative;
+    top:40px;
+    text-align: center;
+    z-index: 150;
+}
+
+nav ul a:link {
+  color:#fff;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color:orange;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color:orange;
+  text-decoration: none;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+  nav ul li {
+    margin-right:15px;
+  }
+
+  nav ul {
+    padding-left:40px;
+  }
+}
+
+#p_content {
+  margin-top:30px;
+  width:1120px;
+  line-height: 25px;
+  margin-left: 5px;
+}
+
+#p1 {
+  max-width:380px;
+  float:left;
+  padding-right: 30px;
+}
+
+#p2 {
+  max-width:380px;
+  float:left;
+  padding-right:30px;
+}
+
+#p3 {
+
+}
+
+
+/* -- - - - -  - - - - - -- -  - -Section 2 - Lejligheder - - - - - - - - - - - -*/
+#section2 {
+  padding-top: 100px;
+  background-color: slategray;
+  min-height: 700px;
+  position:relative;
+}
+
+#heading_lejligheder {
+  margin-bottom:50px;
+}
+
+#section2_content {
+  height:400px;
+  margin-left: 50px;
+}
+
+#section2 h3 {
+  color:#ccc;
+}
+
+article {
+  overflow: hidden;
+  position: relative;
+}
+
+article img {
+    height:100%;
+    width:auto;
+    position:absolute;
+    left:;
+}
+
+article h3, figcaption {
+  background-color:black;
+  color:white;
+  margin:0px;
+  position:absolute;
+  left:0;
+  bottom: 0;
+  width:100%;
+  padding:4px;
+  opacity:0.75;
+  height:30px;
+}
+
+.apt {
+  width:250px;
+  height:250px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  border:1px solid #555;
+  float:left;
+}
+
+/* - - - - - - -  - - - - - - - Section 3 Contact - - - - - - - - - - - - - - -  -*/
+#section3 {
+  background-color:#fff;
+  padding-top: 100px;
+  padding-bottom: 125px;
+}
+
+#kontakt_heading {
+  border-left:3px solid red;
+  padding-left:30px ;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+footer {
+  height:400px;
+  background-image: url("imgs/9.jpg");
+  background-position: center;
+  text-align: center;
+  color:#fff;
+  position:relative;
+}
+
+footer h1 {
+  font-size: 48px;
+  padding-top:130px ;
+}
+
+footer h3 {
+  margin-top: 20px;
+  color:orange;
+}
+/* -- - -- - - -- - - ---  -- - - apartments section- - -- - --  - --  -- - -- - - --- - */
+
+#section_apt {
+  padding-top: 200px;
+  background-color: #fff;
+  min-height: 700px;
+  position:;
+  z-index: 99;
+}
+
+#gallery_heading {
+  border-left:3px solid red;
+  padding-left:30px ;
+  margin-bottom: 50px;
+}
+
+
+/* -- - -- - - -- - - ---  -- - - image tint- - -- - --  - --  -- - -- - - --- - */
+figure {
+  overflow: hidden;
+  position: relative;
+}
+
+figure img {
+  height:100%;
+}
+
+.tint {
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255, 0.3);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+.tint:hover:before {
+  background: none;
+}
